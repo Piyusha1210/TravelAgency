@@ -1,194 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
+body{
+    background-color: white;
+    margin: 0%;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agency</title>
-    <link rel="stylesheet" href="home.css">
-</head>
+#nav {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding:15px;
+    background-color: aquamarine;
+}
 
-<body>
-    <img class="cover-photo" src="https://wallpaperaccess.com/full/1510383.jpg" alt="">
-    <div id="nav">
-        <a href="" class="Nav_element active">HOME</a>
-        <a href="" class="Nav_element">FLIGHTS</a>
-        <a href="" class="Nav_element">TRAINS</a>
-        <a href="" class="Nav_element">BUSES</a>
-        <a href="" class="Nav_element">CABS</a>
-        <a href="" class="Nav_element">HOTELS</a>
-        <a href="" class="Nav_element">RESAURTS</a>
-    </div>
+.Nav_element{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+#nav a.active {
+    color: rgb(85, 118, 224);
+}
+#nav a:hover {
+    color: rgb(127, 157, 255);
+}
+ .cover-photo{
+    position: relative;
+    top: -95px;
+    display: block;
+    width: 100%;
+} 
+.images-boder{
+    margin: 0px 20px 0 20px;
+    border:rgb(96, 209, 172) solid;
+    /* height: 500px; */
+    padding: 30px 0px;
+    border-radius: 40px;
+}
+.images1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img1{
+    width: 31%;
+    padding: 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+#heading{
+    /* border:rgb(96, 209, 172) solid; */
+    padding: 0px 20px;
+    /* margin-top: 80px; */
+}
+#destination-box{
+    margin: auto 10%;
+    border:solid bisque;
+    /* width: 80%; */
+    height: 310px;
+    border-radius: 20px;
+    display:flex;
+    background-color: aquamarine;
+}
+#From
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    margin: auto 0% auto 1%;
+    width: 49%;
+    height: 90%;
+    border:solid rgba(233, 229, 224, 0.664);
+    background-color: rgba(131, 207, 207, 0.945);
+}
+.custom-select{
+    
+    padding: 0px 50px;
+}
+#To
+{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;    
+    margin: auto 1% auto 0%;
+    width: 49%;
+    height: 90%;
+    border:solid rgba(233, 229, 224, 0.664);
+    background-color: rgba(131, 207, 207, 0.945);
+}
+select{
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(48, 129, 211);
+}
+.select-items{
+    background-color: DodgerBlue;
+}
 
-    <div class="images-boder">
-        <div class="images1">
-            <img src="https://www.thewowstyle.com/wp-content/uploads/2015/01/Most-Beautiful-Places-in-the-World.jpg"
-                alt="" class="img1">
-            <img src="https://lh4.googleusercontent.com/proxy/uhVr0UflwrtJID5TvfGE0l9bffoWB4yOBp6fl8ExAiukdvJ3kcOD9I6S4My59v4P2VEDD8PLOfQu3z8qeGXiS6g67hax3ZiIGX9WSWNKlNGoGRGiCOF9giSfGPQK9ZNYiG7kSososVpPNavAAVyzrG-FTrGpW5tgbjxcMZ2b=s0-d"
-                alt="" class="img1">
-            <img src="https://www.itl.cat/pngfile/big/83-836003_place-wallpaper-hd-australia-tourist.png" alt=""
-                class="img1">
-            <img src="https://c4.wallpaperflare.com/wallpaper/226/59/584/cityscapes-paris-wallpaper-preview.jpg" alt=""
-                class="img1">
-            <img src="https://cdn.hipwallpaper.com/i/54/77/0jJz4Z.jpg" alt="" class="img1">
-        </div>
-    </div>
-    <h1 id="heading">Travel Agency</h1>
-    <div id="destination-box">
-        <div id="From">
-            <h1>From</h1>
-            <div class="custom-select">
-                <select>
-                    <option value="1" class="select-items">DELHI</option>
-                    <option value="2" class="select-items">MUMBAI</option>
-                    <option value="3" class="select-items">CHENNAI</option>
-                    <option value="4" class="select-items">KOLKATA</option>
-                    <option value="5" class="select-items">NAGPUR</option>
-                    <option value="6" class="select-items">AGRA</option>
-                    <option value="7" class="select-items">GWALIOR</option>
-                    <option value="8" class="select-items">SHIMLA</option>
-                    <option value="9" class="select-items">MANALI</option>
-                    <option value="10" class="select-items">GOA</option>
-                </select>
-            </div>
-            <h2>Date Of Departure</h2>
-            <input type="date" class="date">
-        </div>
-        <div id="To">
-            <h1>To</h1>
-            <div class="custom-select">
-                <select>
-                    <option value="1" class="select-items">MUMBAI</option>
-                    <option value="2" class="select-items">DELHI</option>
-                    <option value="3" class="select-items">CHENNAI</option>
-                    <option value="4" class="select-items">KOLKATA</option>
-                    <option value="5" class="select-items">NAGPUR</option>
-                    <option value="6" class="select-items">AGRA</option>
-                    <option value="7" class="select-items">GWALIOR</option>
-                    <option value="8" class="select-items">SHIMLA</option>
-                    <option value="9" class="select-items">MANALI</option>
-                    <option value="10" class="select-items">GOA</option>
-                </select>
-            </div>
-            <h2>Date Of Arival</h2>
-            <input type="date" class="date">
-        </div>
-    </div>
-s
-    <div class="Cities">
-        <h1 id="heading">Cities</h1>
-        <div class="city-boxes">
-            <div class="city-1 city">
-                <div class="city-name">
-                    <h3>New york</h3>
-                </div>
-            </div>
-            <div class="city-2 city">
-                <div class="city-name">
-                    <h3>Los Angeles</h3>
-                </div>
-            </div>
-            <div class="city-3 city">
-                <div class="city-name">
-                    <h3>California</h3>
-                </div>
-            </div>
-            <div class="city-4 city">
-                <div class="city-name">
-                    <h3>Delhi</h3>
-                </div>
-            </div>
-            <div class="city-5 city">
-                <div class="city-name">
-                    <h3>Mumbai</h3>
-                </div>
-            </div>
-            <div class="city-6 city">
-                <div class="city-name">
-                    <h3>Agra</h3>
-                </div>
-            </div>
-        </div>
+.date{
+    width: 178px;
+    font-weight: bold;
+    font-size:15px ;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: rgb(48, 129, 211);
+    border: 0px;
+}
 
-    </div>
+.city-boxes{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.city{
+    border-radius: 30px;
+    margin: 10px;
+    width: 30%;
+    height: 250px;
+    padding: 2px;
+    border: aqua solid 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
 
+.city-1{
+    background-image: url(https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty.jpg?w=636&h=358);
+    background-size: contain;
+}
+.city-2{
+    background-image: url(https://www.fodors.com/wp-content/uploads/2019/10/ThingsToKnowBeforeYouGoLosAngeles__HERO_iStock-468040530.jpg);
+    background-size: contain;
+}
+.city-3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5bfefb2a96e76fa82b7ba79e/1544479940598-V80NJJMHVZ0RDSAPW951/ke17ZwdGBToddI8pDm48kBNRt0cg4WAanfWojlHLplx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US6IfA3z_hZ3gTROHXzj40oiauNtBL88ZRQhKg2xy4MQPt_AAiqPvsV6TvkS6kIncw/iStock-913327824v2.jpg?format=2500w);
+    background-size: contain;
+}
+.city-4{
+    background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);
+    background-size: contain;
+}
+.city-5{
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/India/Mumbai/gateway-of-india-mumbai.jpg);
+    background-size: contain;
+}
+.city-6{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Taj_Mahal%2C_Agra%2C_India_edit2.jpg/400px-Taj_Mahal%2C_Agra%2C_India_edit2.jpg);
+    background-size: contain;
+}
 
+.city-name{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: -195px;
+    left: 20px;
+}
+.images3{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img3{
+    width: 31%;
+    padding: 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
 
-
-    <div class="Tickets">
-        <h1 id="heading">Tickets</h1>
-        <img class="img-ticket" src="http://travcontravels.com/images/services/ticketing.png" alt="">
-    </div>
-    <div class="Hotels">
-        <h1 id="heading">Hotels</h1>
-        <div class="images3">
-            <img class="img3"
-                src="https://media.cntraveler.com/photos/5b97ea9959ff057868b4ea22/master/pass/The-Peninsula-Bangkok_2018_The-Peninsula-Bangkok_The-Pool-11.jpg"
-                alt="">
-            <img class="img3"
-                src="https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_terraza2.jpg"
-                alt="">
-            <img class="img3"
-                src="https://pix10.agoda.net/hotelImages/200524/-1/e7e36079645da64601ea20c5249c367d.jpg?s=1024x768"
-                alt="">
-        </div>
-    </div>
-    <div class="Reviews">
-        <h1 id="heading">Reviews</h1>
-        <div class="Review-boxes">
-            <div class="review">
-
-            </div>
-            <div class="review">
-
-            </div>
-            <div class="review">
-
-            </div>
-        </div>
-    </div>
-    <div id="lorem">
-        <h1>Lorem</h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero facere quam perferendis rerum vel a quo illo,
-        maxime
-        ab inventore, alias, accusantium impedit consequatur ipsum quasi. Officiis pariatur nihil deserunt
-        laudantium
-        obcaecati id iste corrupti asperiores quibusdam error adipisci aperiam eligendi ex et, recusandae at rerum a
-        itaque,
-        sequi perspiciatis nobis ipsa hic culpa nostrum! Consequatur provident sunt debitis dicta, nisi, expedita
-        qu
-        rem nemo! Explicabo laudantium quibusdam nulla provident autem. Nulla delectus inventore, debitis odio ipsum
-        saepe
-        amet cupiditate soluta fugiat optio necessitatibus laborum iusto, nemo molestias deleniti laudantium. Nam
-        vitae
-        ut
-        eum provident suscipit laboriosam labore, vel doloremque, recusandae mollitia ex minus blanditiis nemo
-        corrupti
-        beatae quisquam, non placeat sed illum inventore veritatis! Maiores expedita pariatur sequi ipsum. Qui ut
-        officia
-        libero dolor eum neque, voluptatem quis voluptates iusto tempore voluptas, quae, tenetur ipsum ea? Obcaecati
-        ipsa
-        eum natus, maxime odit rem officiis, laborum earum necessitatibus dignissimos ab voluptate pariatur expedita
-        ducimus! Doloribus in ut atque quia non dolor adipisci aperiam, provident a qui. Doloribus labore laborum
-        perferendis nihil quisquam totam tempore numquam laboriosam, obcaecati fugiat soluta omnis impedit
-        aspernatur
-        deleniti dolorum dolorem sit pariatur officia saepe? Aliquam aut ipsam cum quo suscipit saepe, possimus,
-        exercitationem, ipsa expedita iusto error? Et, necessitatibus tenetur beatae vitae commodi facere sunt
-        incidunt
-        laudantium dolor alias labore molestias ut quos, quia facilis magni corporis tempore fugit aperiam dolorem
-        maiores
-        ipsum. Culpa et assumenda neque repudiandae quo minus fugit, perferendis saepe velit hic soluta veniam
-        magni,
-        quia
-        placeat fuga laborum quas itaque. Enim commodi eius iure numquam nulla repellat quidem repellendus
-        reprehenderit
-        quasi ipsam. Aliquam porro, adipisci consequuntur odio hic harum magni non, nulla neque ex delectus omnis
-        natus
-
-    </div>
-    <br>
-    <div class="footer"></div>
-</body>
-
-</html>
+.img-ticket{
+    display: block;
+    width: 100%;
+}
+.Review-boxes{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.review{
+    border-radius: 30px;
+    margin: 10px;
+    width: 30%;
+    height: 250px;
+    padding: 2px;
+    border: aqua solid 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+#lorem{
+    padding: 0px 7%;
+    text-align: justify;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(39, 35, 35);
+}
