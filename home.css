@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    margin: 0%;
+}
+#nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* height: 50px; */
+    /* border: 2px solid red; */
+    padding:15px;
+    background-color: aquamarine;
+}
+
+.Nav_element{
+    margin: 0px;
+    /* background-color: aquamarine; */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+#nav a.active {
+    color: rgb(85, 118, 224);
+}
+#nav a:hover {
+    color: rgb(127, 157, 255);
+}
+.images-boder{
+    margin: 70px 20px 0 20px;
+    border:rgb(96, 209, 172) solid;
+    /* height: 500px; */
+    padding: 30px 0px;
+    border-radius: 40px;
+}
+.images{
+    margin: auto 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width: 31%;
+    padding: 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+#heading{
+    /* border:rgb(96, 209, 172) solid; */
+    padding: 0px 20px;
+    /* margin-top: 80px; */
+}
+#destination-box{
+    margin: auto 10%;
+    border:solid bisque;
+    /* width: 80%; */
+    height: 310px;
+    border-radius: 20px;
+    display:flex;
+    background-color: aquamarine;
+}
+#From
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    margin: auto 0% auto 1%;
+    width: 49%;
+    height: 90%;
+    border:solid rgba(233, 229, 224, 0.664);
+    background-color: rgba(131, 207, 207, 0.945);
+}
+.custom-select{
+    
+    padding: 0px 50px;
+}
+#To
+{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;    
+    margin: auto 1% auto 0%;
+    width: 49%;
+    height: 90%;
+    border:solid rgba(233, 229, 224, 0.664);
+    background-color: rgba(131, 207, 207, 0.945);
+}
+select{
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(48, 129, 211);
+}
+.select-items{
+    background-color: DodgerBlue;
+}
+
+.date{
+    width: 178px;
+    font-weight: bold;
+    font-size:15px ;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: rgb(48, 129, 211);
+    border: 0px;
+}
+#lorem{
+    padding: 0px 7%;
+    text-align: justify;
+}
+.footer{
+    height: 250px;
+    background-color: rgb(39, 35, 35);
+}
+
+
