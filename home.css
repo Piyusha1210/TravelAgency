@@ -97,7 +97,7 @@ body{
     border:solid rgba(233, 229, 224, 0.664);
     background-color: rgba(131, 207, 207, 0.945);
 }
-select{
+select{ 
     padding: 0px 10px;
     text-align: center;
     font-weight: bold;
