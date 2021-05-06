@@ -57,6 +57,11 @@ body{
     /* margin-top: 80px; */
     font-size: 50px;
 }
+
+.des-cover-img{
+    height: 540px;
+    background-color: rgb(127, 157, 255);
+}
 #destination-box{
     margin: auto 10%;
     border:solid bisque;
@@ -68,8 +73,8 @@ body{
 }
 #From
 {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     padding-left: 20px;
     margin: auto 0% auto 1%;
     width: 49%;
@@ -83,9 +88,9 @@ body{
 }
 #To
 {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-left: 20px;    
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;    
     margin: auto 1% auto 0%;
     width: 49%;
     height: 90%;
@@ -194,7 +199,7 @@ select{
     margin-left: 10px;
 }
 .review-button{
-    color: rgb(31, 121, 173);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
