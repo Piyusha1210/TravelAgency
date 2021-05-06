@@ -60,7 +60,7 @@ body{
     /* margin: 50px 0px 0px 250px; */
 }
 #heading{
-    color: gray;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px 0px 0px 0px;
     font-size: 50px;
@@ -209,6 +209,13 @@ select{
     left: 20px;
 }
 
+
+#ticket-heading{
+    color: black;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 50px;
+}
 .Tickets-cover{
     margin-top: -50px;
     height: 700px;
@@ -241,10 +248,11 @@ select{
 .Reviews-cover{
     height: 550px;
     margin-top: -50px;
-    background-color: rgb(157, 106, 206);
+    background-color: rgb(181, 128, 230);
 }
 .h2-ask{
     margin-left: 50px;
+    margin-top: 0px;
     /* border: 1px solid red; */
 }
 .ask-review{
@@ -255,20 +263,22 @@ select{
 }
 .like-review{
     font: bold;
+    font-size: 20px;
     margin-left: 10px;
 }
 .review-button{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
-    margin-top: -15px;
-    padding: 15px;
+    margin-top: -10px;
+    font-size: 20px;
+    width: 100px;
+    padding: auto;
+    padding-top: 10px;
     border-radius: 10px;
-    background-color: rgb(228, 47, 47);
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 160, 236);
     border: 1px solid rgb(22, 85, 201);
     text-align: center;
-    padding: auto;  
 }
 
 .Review-boxes{
