@@ -1,0 +1,524 @@
+body{
+    background-color: white;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav {
+    /* text-align: right; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding:15px;
+    padding-right: 50px;
+    background-color: rgb(255, 221, 127);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:inherit ;
+    padding-left: 30px;
+}
+.nav-link{
+    padding-right: 20px;
+    text-align: right;
+}
+.Nav_element{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration: none;
+}
+#nav a.active {
+    color: rgb(85, 118, 224);
+}
+#nav a:hover {
+    color: rgb(127, 157, 255);
+}
+
+.cover-photo{
+    position: relative;
+    top: -95px;
+    display: block;
+    width: 100%;
+    filter: brightness(95%);
+} 
+.explore{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Photo-frame-cover{
+    margin-top: -95px;
+    /* background-color: rgb(101, 224, 228); */
+    border:rgba(0, 128, 0, 0) 2px solid;
+    height: 600px;
+}
+.Photo-frame-boder{
+    background-color: rgba(227, 255, 190, 0.74);  
+    margin: 20px 20px 0 20px;
+    border:rgb(96, 209, 172) solid;
+    /* height: 500px; */
+    padding: 30px 0px;
+    border-radius: 40px;
+}
+.images1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img1{
+    width: 31%;
+    padding: 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+#heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 50px;
+}
+
+
+
+
+#city-heading{
+    color: black;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 50px;
+}
+.city-cover{
+    margin-top: -50px;
+    height: 1450px;
+    background-color: rgb(245, 240, 240);
+}
+.city-content{
+    margin-top: -20px;
+    font-weight: bold;
+    padding-left: 50px ;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: black;
+
+}
+.city-boxes{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.city{
+    border-radius: 40px;
+    margin: 10px;
+    width: 30%;
+    height: 250px;
+    padding: 2px;
+}
+.city:hover{
+    transition-property:all;
+    filter: brightness(80%);
+    transition-duration: 0.5s;
+}
+
+.city-1{
+    background-image: url(https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty.jpg?w=636&h=358);
+    background-size: contain;
+}
+.city-2{
+    background-image: url(https://www.fodors.com/wp-content/uploads/2019/10/ThingsToKnowBeforeYouGoLosAngeles__HERO_iStock-468040530.jpg);
+    background-size: contain;
+}
+.city-3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5bfefb2a96e76fa82b7ba79e/1544479940598-V80NJJMHVZ0RDSAPW951/ke17ZwdGBToddI8pDm48kBNRt0cg4WAanfWojlHLplx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US6IfA3z_hZ3gTROHXzj40oiauNtBL88ZRQhKg2xy4MQPt_AAiqPvsV6TvkS6kIncw/iStock-913327824v2.jpg?format=2500w);
+    background-size: contain;
+}
+.city-4{
+    background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);
+    background-size: contain;
+}
+.city-5{
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/India/Mumbai/gateway-of-india-mumbai.jpg);
+    background-size: contain;
+}
+.city-6{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Taj_Mahal%2C_Agra%2C_India_edit2.jpg/400px-Taj_Mahal%2C_Agra%2C_India_edit2.jpg);
+    background-size: contain;
+}
+.city-7{
+    background-image: url(https://i.pinimg.com/originals/73/87/3c/73873c8488ec2c10d1c8dcf27bf27795.jpg);
+    background-size: contain;
+}
+.city-8{
+    background-image: url(https://www.fodors.com/assets/destinations/2869/tower-bridge-london-england_980x650.jpg);
+    background-size: contain;
+}
+.city-9{
+    background-image: url(https://m.aussizzgroup.com/assets/images/main-page-banner.jpg);
+    background-size: contain;
+}
+
+.city-name{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: -190px;
+    left: 30px;
+    opacity: 1;
+}
+.iframe
+{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+.Tickets-cover{
+    margin-top: -50px;
+    height: 1150px;
+    background-color: rgb(127, 157, 255);
+}
+#ticket-heading{
+    color: black;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 50px;
+}.tickets-boxes{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.ticket-box{
+    width: 20%;
+    padding: 0px 25px;
+}
+.ticket-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    width: 17.8%;
+    padding: 15px;
+    margin-bottom: 100px;
+    margin-left: 24px; 
+    margin-right: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: black;
+}
+.ticket-box:hover{
+    /* opacity: 0.9; */
+    transition-property:all;
+    filter: brightness(80%);
+    transition-duration: 0.5s;
+}
+.ticket-name:hover{
+    background-color: rgb(199, 61, 61);
+    
+}
+
+.ticket-booking-back{
+    display: flex;
+    justify-content: space-around;
+}
+.ticket-cover-photo{
+    width: 60%;
+    text-align: center;
+}
+.photo-1{
+    margin-top: -40px;
+    width: 65%;
+}
+.photo-2{
+    margin-top: 40px;
+    width: 65%;
+}
+#destination-box{
+    margin: -50px auto auto 80px;
+    border:solid bisque;
+    width: 35%;
+    height: 650px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* padding: 30px; */
+}
+
+.from{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+
+.to{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+.custom-select{
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+select{
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(245, 245, 245);
+}
+.select-items{
+    background-color: rgb(226, 230, 235);
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+.date-choose{
+    border: 1px solid gray;
+    width: 178px;
+    height: 15px;
+    font-weight: bold;
+    font-size:15px ;
+    margin-top: 20PX;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mode{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px 0px 20px;
+}
+#MODE{
+    padding-top: 50px;
+    vertical-align: middle;
+}
+.booking-radio{
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 90%;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding-top: 15px;
+    border: 1px solid gray;
+}
+.radio{
+    padding-left: 20px;
+}
+.passengers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding:0px 20px;
+}
+.nu-pass-box{
+    border: 1px solid gray;
+    width: 178px;
+    height: 15px;
+    font-weight: bold;
+    font-size:15px ;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+}
+.Submit-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding:0px 20px;
+}
+.submit{
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(50, 50, 252);
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.reset{
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 53, 53);
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+
+.Hotels-cover{
+    margin-top: -50px;
+    height: 500px;
+    background-color: rgb(182, 243, 187);
+    background-color: rgb(245, 240, 240);
+}
+.hotels-boxes{
+    margin: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hotel-box{
+    width: 31%;
+    padding: 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+.hotel-box:hover{
+    
+    transition-property:all;
+    filter: brightness(90%);
+    transition-duration: 0.5s;
+    opacity: 0.9;
+    filter: brightness(80%);
+}
+.des-cover-2{
+    margin-top: -50px;
+    height: 540px;
+    background-color: rgb(127, 157, 255);
+    background-color: rgb(245, 240, 240);
+}
+
+.Reviews-cover{
+    background-color: rgb(231, 223, 223);
+    height: 550px;
+    margin-top: -50px;
+}
+.h2-ask{
+    margin-left: 50px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+.ask-review{
+    padding: 0;
+    display: flex;
+    margin-left: 40px;
+    
+}
+.like-review{
+    font: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.review-button{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+    color: rgb(20, 1, 1);
+    color: white;
+    background-color: rgb(38, 149, 252);    
+    border: 1px solid rgb(22, 85, 201);
+    text-align: center;
+}
+
+.Review-boxes{
+    margin: auto ;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.review-box{
+    border-radius: 30px;
+    margin: 10px;
+    width: 25%;
+    height: 220px;
+    padding: 20px;
+    border: rgb(162, 202, 87) solid 2px;
+    /* margin: 50px 0px 0px 250px; */
+}
+.review-button:hover{
+    background-color: rgb(199, 61, 61);
+}
+
+.class5 {
+    font-size: 20px;
+    color: #ffffffda;
+    background-color: #0f0f0fde;
+    width: 100%;
+    margin-top:1px;
+    padding-bottom: 5px;
+}
+.class5 ul{
+    font-size: px;
+    margin-top: 0px;
+    padding-left: 5%;
+}
+.contact-heading{
+      padding-top: 20px;
+      padding-left: 120px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+#link{
+    margin: 0;
+    margin-top: 40px;
+    float: right ;
+    padding-right: 80px;
+    font-size: 25px;
+    word-spacing: 10px;
+    /* padding:0.1% 2% 40% 1%; */
+}
+  
+  .fa {
+      padding: 8px;
+      font-size: 40px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      
+    }
+  
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+  
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+  
