@@ -48,7 +48,15 @@ body{
     width: 100%;
     filter: brightness(95%);
 } 
-
+.explore{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .Photo-frame-cover{
     margin-top: -95px;
@@ -92,10 +100,11 @@ body{
 }
 .city-cover{
     margin-top: -50px;
-    height: 1050px;
+    height: 1450px;
     background-color: rgb(245, 240, 240);
 }
 .city-content{
+    margin-top: -20px;
     font-weight: bold;
     padding-left: 50px ;
     padding-bottom: 10px;
@@ -169,11 +178,16 @@ body{
     left: 30px;
     opacity: 1;
 }
+.iframe
+{
+    margin-top: 80px;
+    margin-left: 50px;
+}
 
 
 .Tickets-cover{
     margin-top: -50px;
-    height: 1200px;
+    height: 1150px;
     background-color: rgb(127, 157, 255);
 }
 #ticket-heading{
@@ -206,24 +220,43 @@ body{
     background: black;
 }
 .ticket-box:hover{
-    opacity: 0.8;
+    /* opacity: 0.9; */
+    transition-property:all;
+    filter: brightness(80%);
+    transition-duration: 0.5s;
 }
 .ticket-name:hover{
     background-color: rgb(199, 61, 61);
+    
 }
 
-
+.ticket-booking-back{
+    display: flex;
+    justify-content: space-around;
+}
+.ticket-cover-photo{
+    width: 60%;
+    text-align: center;
+}
+.photo-1{
+    margin-top: -40px;
+    width: 65%;
+}
+.photo-2{
+    margin-top: 40px;
+    width: 65%;
+}
 #destination-box{
-    margin: -40px auto auto auto;
+    margin: -50px auto auto 80px;
     border:solid bisque;
     width: 35%;
-    height: 700px;
+    height: 650px;
     border-radius: 20px;
     background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 30px; */
 }
 
 .from{
@@ -265,6 +298,7 @@ select{
     height: 15px;
     font-weight: bold;
     font-size:15px ;
+    margin-top: 20PX;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -315,7 +349,7 @@ select{
 .Submit-box{
     display: flex;
     justify-content: space-around;
-    margin-top: 35px;
+    margin-top: 0px;
     padding:0px 20px;
 }
 .submit{
@@ -354,6 +388,10 @@ select{
     /* margin: 50px 0px 0px 250px; */
 }
 .hotel-box:hover{
+    
+    transition-property:all;
+    filter: brightness(90%);
+    transition-duration: 0.5s;
     opacity: 0.9;
     filter: brightness(80%);
 }
