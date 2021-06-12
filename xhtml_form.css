@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    background-color: #d5fbfe;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-travel-around-the-world-travel-poster-template-image_140335.jpg);
+}
+#nav {
+    /* text-align: right; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding:15px;
+    padding-right: 50px;
+    background-color: rgb(255, 221, 127);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:inherit ;
+    padding-left: 30px;
+}
+.nav-link{
+    padding-right: 20px;
+    text-align: right;
+}
+.Nav_element{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration: none;
+}
+#nav a.active {
+    color: rgb(85, 118, 224);
+}
+#nav a:hover {
+    color: rgb(127, 157, 255);
+}
+.explore{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    color: rebeccapurple;
+    font-size: 40px;
+    font-style: oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cover{
+    /* background-color: azure; */
+    margin:50% 10% 10% 10%;
+    width: 80%;
+    height: 600px;
+    padding: 30px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.Que{
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 45%;
+    /* background-color: rebeccapurple; */
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    /* border: 2px solid red; */
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input,select{
+    text-align: center;
+    border: 1px solid gray;
+    width: 200px;
+    font-size:15px ;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+.custom-select{
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select{
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 223px;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+}
+.select-items{
+    background-color: rgb(226, 230, 235);
+}
+
+.date-choose{
+    border: 1px solid gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.booking-radio{
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px 0px 10px 30px ;
+    border: 1px solid gray;
+}
+
+.passengers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding:0px 20px;
+}
+.nu-pass-box{
+    border: 1px solid gray;
+    width: 178px;
+    height: 15px;
+    font-weight: bold;
+    font-size:15px ;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+.Submit{
+    text-align: center;
+    font-size: 30px;
+}
+.submit {
+    background: darkcyan;
+}
+.clear{
+    background: red;
+}
+.submit:hover, .clear:hover{
+    background-color: rgb(158, 156, 156);
+}
